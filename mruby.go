@@ -2,8 +2,6 @@ package mruby
 
 import "unsafe"
 
-// #cgo CFLAGS: -Ivendor/mruby/include
-// #cgo LDFLAGS: -lm libmruby.a -lm libcrypto.a -ldl
 // #include "gomruby.h"
 import "C"
 
